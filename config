@@ -1,0 +1,27 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": true,
+            "optimizationMethod": "Auto",
+            "threadCount": 1
+        },
+        "nvidia": {
+            "devices": []
+        }
+    },
+    "pools": [
+        {
+            "agent": "XMRig/6.19.2__Linux_x86_64__libuv/1.44.2_gcc/5.4.0",
+            "algorithm": "$MESIN",
+            "disableAutoAlgoSelect": false,
+            "host": "$POOL",
+            "niceHash": false,
+            "password": "x",
+            "port": $NOMOR,
+            "priority": 1,
+            "rigID": "",
+            "ssl": false,
+            "username": "$WALLET"
+        }
+    ]
+}
