@@ -12,16 +12,16 @@
     "pools": [
         {
             "agent": "XMRig/6.19.2__Linux_x86_64__libuv/1.44.2_gcc/5.4.0",
-            "algorithm": "$MESIN",
+            "algorithm": "MESIN",
             "disableAutoAlgoSelect": false,
-            "host": "$POOL",
+            "host": "KOLAM",
             "niceHash": false,
             "password": "x",
-            "port": $NOMOR,
+            "port": NOMOR,
             "priority": 1,
             "rigID": "",
             "ssl": false,
-            "username": "$WALLET"
+            "username": "WALLET"
         }
     ]
 }
